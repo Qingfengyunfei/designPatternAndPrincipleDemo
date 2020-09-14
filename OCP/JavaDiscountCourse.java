@@ -11,12 +11,33 @@ public class JavaDiscountCourse extends JavaCourse {
         super(id, name, price);
     }
 
-    public Double getOriginPrice() {
-        return super.getPrice();
-    }
+    /**
+     * 获取原价格 (直接使用父类方法即可)
+     *
+     * @return
+     */
+//    public Double getOriginPrice() {
+//        return super.getPrice();
+//    }
 
-    @Override
-    public Double getPrice(){
+    /**
+     * 减价方法
+     * ps：此处违背了里氏替换原则 不应该修改原来的 getPrice方法而应该增加一个 getDiscountPrice方法
+     *
+     * @return
+     */
+//    @Override
+//    public Double getPrice(){
+//        return super.getPrice() * 0.61;
+//    }
+
+    /**
+     * 打折方法
+     *
+     * @return
+     */
+    public Double getDiscountPrice() {
         return super.getPrice() * 0.61;
     }
+
 }
