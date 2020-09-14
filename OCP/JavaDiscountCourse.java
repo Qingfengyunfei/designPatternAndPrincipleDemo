@@ -15,6 +15,7 @@ public class JavaDiscountCourse extends JavaCourse {
         return super.getPrice();
     }
 
+    @Override
     public Double getPrice(){
         return super.getPrice() * 0.61;
     }

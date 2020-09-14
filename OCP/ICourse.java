@@ -7,9 +7,21 @@ package com.designPrinciples.OCP;
  * @since 1.0.0
  */
 public interface ICourse {
+    /**
+     * get CourseID
+     * @return courseID
+     */
     Integer getId();
 
+    /**
+     * get CourseName
+     * @return courseName
+     */
     String getName();
 
+    /**
+     * get CoursePrice
+     * @return coursePrice
+     */
     Double getPrice();
 }

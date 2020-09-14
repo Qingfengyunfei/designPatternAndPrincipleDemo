@@ -7,5 +7,8 @@ package com.designPrinciples.DIP;
  * @since 1.0.0
  */
 public interface ICourse {
+    /**
+     * Course study method
+     */
     void study();
 }
