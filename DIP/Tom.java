@@ -47,7 +47,8 @@ public class Tom {
 //    public static void main(String[] args) {
 //        Tom tom = new Tom(new JavaCourse());
 //        tom.study();
-//    }  
+//    }
+
     //#############################第三版修改 如果是全局单例Tom类 则只能通过Setter 方式注入
     private ICourse course;
 
