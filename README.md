@@ -1,1 +1,17 @@
-# designPrincipleTest
+# designPatternAndPrinciple
+## [designPrinciple 设计原则](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple)
+* [CRP 组合复用原则](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple/CRP)
+* [LSP 里氏替换原则](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple/LSP)
+* [LoD 迪米特法则（最少知道原则 LKP）](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple/LoD)
+* [ISP 接口隔离原则](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple/ISP)
+* [SRP 单一职责原则](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple/SRP)
+* [DIP 依赖倒置原则](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple/DIP)
+* [OCP 开闭原则](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPrinciple/OCP)
+
+## [designPattern 设计模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern)
+* [Creational Patterns 创建型模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns)
+    * [Factory Pattern 工厂模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns/factory)
+    * [Abstract Factory Pattern 抽象工厂模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns/abstractfactory)
+* [Structural Patterns 结构型模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/structuralPatterns)
+* [Behavioral Patterns 行为型模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/behavioralPatterns)
+    * [Strategy Pattern 策略模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/behavioralPatterns/strategy)
