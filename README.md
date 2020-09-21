@@ -11,7 +11,7 @@
 ## [designPattern 设计模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern)
 * [Creational Patterns 创建型模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns)
     * [Simple Factory Pattern 简单工厂模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns/simplefactory)
-    * [Factory Pattern 工厂模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns/factory)
+    * [Factory Method Pattern 工厂方法模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns/factorymethod)
     * [Abstract Factory Pattern 抽象工厂模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/creationalPatterns/abstractfactory)
 * [Structural Patterns 结构型模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/structuralPatterns)
 * [Behavioral Patterns 行为型模式](https://github.com/qingfengyunfei16/designPatternAndPrincipleDemo/tree/master/designPattern/behavioralPatterns)
