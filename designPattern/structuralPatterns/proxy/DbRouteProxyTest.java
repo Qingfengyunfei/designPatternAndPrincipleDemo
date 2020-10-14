@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * @author Administrator
- * @description
+ * @description 静态代理测试
  * @create 2020/10/14 16:11
  * @since 1.0.0
  */
