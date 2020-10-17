@@ -33,7 +33,7 @@ public class JDKMeipo implements InvocationHandler {
     }
 
     private void before() {
-        System.out.println("我是媒婆，我要给你找对象，已经确认了你的需求");
+        System.out.println("我是JDK媒婆，我要给你找对象，已经确认了你的需求");
         System.out.println("开始物色对象");
     }
 
