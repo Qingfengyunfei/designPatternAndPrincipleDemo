@@ -30,7 +30,7 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
 
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-        before();
+        before(args[0]);
         Object object = method.invoke(target, args);
         after();
         return object;
@@ -40,7 +40,7 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
         System.out.println("Proxy after method");
     }
 
-    private void before() {
+    private void before(Object target) {
         try {
             System.out.println("Proxy before method");
             Long time = (Long) target.getClass().getMethod("getCreateTime").invoke(target);
